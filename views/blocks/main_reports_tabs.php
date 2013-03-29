@@ -1,5 +1,5 @@
 <br/>
-<div class="span12">
+<div class="span8 report-tabs" >
     <ul class="nav nav-tabs "  id="myTab">
         <li class="active"><a href="#latest"> <?php echo Kohana::lang('block_main.reports_latest'); ?>  <i class="icon-list"></i></a></li>
         <li><a href="#hot"><?php echo Kohana::lang('block_main.reports_hot'); ?> <i class="icon-camera"></i></a></li>

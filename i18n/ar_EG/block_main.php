@@ -9,5 +9,6 @@ defined('SYSPATH') OR die('No direct access allowed.');
 $lang = array(
     'reports_hot' => 'تقارير مصورة',
     'reports_latest' => 'أحدث التقارير ',
+    'latest_articles' => 'مقالات تهمك',
         )
 ?>

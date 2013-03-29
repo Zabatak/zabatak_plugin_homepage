@@ -80,3 +80,26 @@ class Featured_News {
 }
 
 new Featured_News;
+
+
+class Latest_Articles {
+
+	public function __construct()
+	{
+		$block = array(
+			"classname" => "Latest_Articles",
+			"name" => "Latest Articles",
+			"description" => "Article Posts"
+		);
+
+		blocks::register($block);
+	}
+
+	public function block()
+	{   
+		$content = new View('blocks/latest_articles');		
+		echo $content;
+	}
+}
+
+new Latest_Articles;
