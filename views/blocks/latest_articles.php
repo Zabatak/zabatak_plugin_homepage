@@ -13,7 +13,7 @@
             ولكن 
             حتى نكون غطينا الموضوع باذن الله من اكتر من جانب
         </p>
-        <a class="feature_more more"  href="<?php echo url::site() . 'page/index/3' ?>"><?php echo Kohana::lang('ui_main.view_more'); ?></a>
+        <a class="feature_more more"  href="<?php echo url::site() . 'article/index/5' ?>"><?php echo Kohana::lang('ui_main.view_more'); ?></a>
     </div>
 
     <hr />
@@ -24,7 +24,7 @@
             مصر غير أي بلد في الدنيا – احنا بنسكن على أكلنا. يعني بنبني مطرح ما بنزرع. يعني كل متر مربع مباني زيادة = متر مربع نقص في الغذا. واحنا مش عارفين لا نستصلح صحرا ولا عايزين نبطل نسكن جنب النيل.
             التقديرات بتقول ان مصر حتزيد من 60-90 مليون في الاربعين سنة الجاية.
         </p>
-        <a class="feature_more more"  href="<?php echo url::site() . 'page/index/3' ?>"><?php echo Kohana::lang('ui_main.view_more'); ?></a>
+        <a class="feature_more more"  href="<?php echo url::site() . 'article/index/6' ?>"><?php echo Kohana::lang('ui_main.view_more'); ?></a>
 
     </div>
     <hr />
@@ -35,7 +35,7 @@
             ى يوم من الايام و انا رايح الشغل بدرى توقفت عربية بيجو 504 و كان بداخلها 3 يرتدون زى صعيدى
 و سمعت من داخل السيارة من الكرسى الامامى المجاور للسواق واحد بيقول يا استاذ يا استاذ فتوقفت و دار بيننا حوار كالتالى 
         </p>
-                <a class="feature_more more"  href="<?php echo url::site() . 'page/index/3' ?>"><?php echo Kohana::lang('ui_main.view_more'); ?></a>
+                <a class="feature_more more"  href="<?php echo url::site() . 'article/index/4' ?>"><?php echo Kohana::lang('ui_main.view_more'); ?></a>
 
     </div>
 </div>
