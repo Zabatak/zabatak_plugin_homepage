@@ -2,7 +2,7 @@
 
 class Markdown_Core {
 
-    public static function parse($text) {
+    public function parse($text) {
         if ( !function_exists('Markdown')) {
             // Load SwiftMailer
             require 'vendor/markdown.php';

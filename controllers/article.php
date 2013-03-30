@@ -33,7 +33,7 @@ class Article_Controller extends Main_Controller {
 		$page = ORM::factory('page',$page_id)->find($page_id);
 		if ($page->loaded)
 		{
-
+                        $parser = new Markdown();
 			$page_title = $page->page_title;
 			$page_description = $page->page_description;
 			// Filter::page_title - Modify Page Title
@@ -42,7 +42,7 @@ class Article_Controller extends Main_Controller {
 			Event::run('ushahidi_filter.page_description', $page_description);
 
 			$this->template->content->page_title = $page_title;
-			$this->template->content->page_description = Markdown::parse($page_description);
+			$this->template->content->page_description = $parser->parse($page_description);
 			$this->template->content->page_id = $page->id;
 		}
 		else
