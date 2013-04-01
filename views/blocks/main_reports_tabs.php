@@ -1,8 +1,8 @@
 <br/>
 <div class="span8 report-tabs" >
     <ul class="nav nav-tabs "  id="myTab">
-        <li class="active"><a href="#latest"> <?php echo Kohana::lang('block_main.reports_latest'); ?>  <i class="icon-list"></i></a></li>
-        <li><a href="#hot"><?php echo Kohana::lang('block_main.reports_hot'); ?> <i class="icon-camera"></i></a></li>
+        <li class="active"><a href="#latest"><i class="icon-list"></i> <?php echo Kohana::lang('block_main.reports_latest'); ?>  </a></li>
+        <li><a href="#hot"><i class="icon-camera"></i> <?php echo Kohana::lang('block_main.reports_hot'); ?> </a></li>
     </ul>
 
     <div class="tab-content">
